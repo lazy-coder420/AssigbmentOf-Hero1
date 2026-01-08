@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9fafb;
+  color: #0f172a;
+}
+
+/* Navbar Section Design Stead */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 120px;
+  background: white;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #334155;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-btn {
+  background: #22c55e;
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  border: none;
+  padding: 13px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Hero Section Design stead*/
+.hero {
+  position: relative;
+  max-width: 1640px;
+  height: 674px;
+  background: url("./imgfile/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.75);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 700px;
+  color: white;
+  padding: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: #16a34a;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500px;
+  margin-top: 115px;
+  margin-bottom: 51px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  
+  font-weight: 700;
+  color: #e5f0ff;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.hero h1 span {
+  color: #22c55e;
+}
+
+.hero p {
+  color: #e5e7eb;
+  margin-bottom: 30px;
+  /* margin-top: 15px; */
+}
+
+.hero-buttons button {
+  padding: 12px 18px;
+  border-radius: 6px;
+  border: none;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #22c55e;
+  color: white;
+}
+
+.secondary {
+  /* background: transparent; */
+  border: 1px solid white
+  color: white;
+  
+}
+
+
+
+
+
+/* Features section Design stead */
+.features {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 50px;
+}
+
+
+.cards{
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 322px;
+    height: 300px;
+    background: white;
+    border: 1px solid #e5e7eb; /* Light border similar to UI design tools */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+     
+  }
+
+
+
+/* Icon Circle Design */
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    color: white;
+  }
+
+.card h3 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.card p {
+  color: #64748b;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+
+
+
+/* solution-Section Design stead  */
+
+
+  .section-container {
+    width: 1360px;
+    height: 600px;
+    background: white;
+    display: flex; /* Creates the Left/Right split */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  }
+
+ .solution-section {
+  padding: 120px 0;
+ 
+}
+
+.solution-container {
+  max-width: 1360px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Left Image  Design*/
+.solution-image {
+  flex: 1;
+  text-align: center;
+}
+
+.solution-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Right Content Design */
+.solution-content {
+  flex: 1;
+}
+
+.solution-tag {
+  color: #2f9e44;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.solution-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 16px 0;
+  color: #0b1c2d;
+}
+
+.solution-content p {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.solution-content ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.solution-content ul li {
+  margin-bottom: 16px;
+  padding-left: 26px;
+  font-size: 16px;
+  font-weight: 500px;
+  position: relative;
+  color: #0b1c2d;
+}
+
+/* Icon on left Design */
+.solution-content ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  background-image: url("./imgfile/CheckCircle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+
