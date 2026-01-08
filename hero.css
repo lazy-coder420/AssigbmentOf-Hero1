@@ -280,6 +280,111 @@ body {
   background-repeat: no-repeat;
 }
 
+ /* >Ready To Think More Clearly? */
+.cta-section {
+  background: #F7F6F2;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 16px;
+  max-width: 1140px;
+  margin: 100px auto;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  color: #0b1c2d;
+
+  margin-bottom: 16px;
+}
+
+.cta-section p {
+  color: #627382;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #3c8d5a;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.cta-note {
+  display: block;
+  margin-top: 16px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+  background: #021b33;
+  color: #fff;
+  /* padding: 60px 40px 20px; */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 120px 80px 120px;
+}
+
+.footer-social h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.social-icons a {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  color: #021b33;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #22c55e;
+  color: #fff;
+}
+
+.horizontal{
+    padding: 110px 120px 30px 120px;
+}
+
+.footer-bottom {
+  text-align: center;
+
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
 
 
 
